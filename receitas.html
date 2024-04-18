@@ -1,0 +1,122 @@
+<<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo de Receitas</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #ffc107;
+      }
+      .container-fluid {
+        padding: 20px;
+      }
+      #pnlCatalogo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .card {
+        width: 250px;
+        margin-bottom: 20px;
+      }
+      .card-img-top {
+        width: 100%;
+        height: auto;
+      }
+      .card-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+      .card-text ul {
+        padding-left: 20px;
+      }
+      .card-text hr {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body onload="preencheCatalogo()">
+    <div class="container-fluid">
+      <h1>Catálogo de Receitas</h1>
+      <div id="pnlCatalogo"></div>
+    </div>
+
+    <script>
+      const receitas = [
+        {
+          titulo: "Donut Nuteludo",
+          imagem: "donut-nuteludo.png",
+          ingredientes: [
+            "Massa de donut americana",
+            "Chocolate ao leite e branco",
+            "Nutella",
+            "Seringa de nutella",
+          ],
+          preparo:
+            "Preparo da receita Donut Nuteludo,recheie o donut com a Nutella,cubra a rosquinha com o chocolate ao leite e decore com o chocolate branco,sirva com a seringa de nutella ao lado",
+        },
+        {
+          titulo: "Donut Pistache",
+          imagem: "donut-pistache.png",
+          ingredientes: [
+            "Massa de donut americana",
+            "Chocolate branco",
+            "Pedaços de pistache",
+            "Recheio cremoso de pistache",
+          ],
+          preparo:
+            "Preparo da receita Donut Pistache,recheie o donut com o recheio cremoso de pistache,cubra a rosquinha com chocolate branco e pedaços de pistache",
+        },
+        {
+          titulo: "Donut Redvelvet",
+          imagem: "donut-redvelvet.png",
+          ingredientes: [
+            "Massa red velvet",
+            "Chocolate branco",
+            "Bolo red velvet",
+            "Recheio cremoso de cheesecake",
+            "Toque de limão",
+          ],
+          preparo:
+            "Preparo da receita Donut Redvelvet, coloque o recheio cremoso de cheesecake com toque de limão  em cima do bolo red velvet,cubra com chocolate branco com massa red velvet",
+        },
+      ];
+
+      function getListaIngredientes(receita) {
+        return `<ul>${receita.ingredientes
+          .map((ingrediente) => `<li>${ingrediente}</li>`)
+          .join("")}</ul>`;
+      }
+
+      function getCard(receita) {
+        return `
+                <div class="card">
+                    <img src="${receita.imagem}" class="card-img-top" alt="${
+          receita.titulo
+        }">
+                    <div class="card-body">
+                        <h5 class="card-title">${receita.titulo}</h5>
+                        <div class="card-text">${getListaIngredientes(
+                          receita
+                        )}</div>
+                        <hr>
+                        <p>${receita.preparo}</p>
+                    </div>
+                </div>
+            `;
+      }
+
+      function preencheCatalogo() {
+        const pnlCatalogo = document.getElementById("pnlCatalogo");
+        pnlCatalogo.innerHTML = receitas.map(getCard).join("");
+      }
+    </script>
+  </body>
+</html>

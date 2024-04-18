@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ordenando Valores</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="secao esquerda">
+        <h2>Ordenando Valores</h2>
+        <div class="inputs">
+          <label for="valorEsquerda">Valor</label>
+          <input type="number" id="valorEsquerda" min="1" max="8" />
+          <button
+            id="btnAdicionarEsquerda"
+            onclick="adicionarValor(inputValorEsquerda, listaValoresEsquerda)"
+          >
+            Adicionar
+          </button>
+          <div class="separadorButton"></div>
+        </div>
+        <select id="algoritmoEsquerda" class="algoritmo">
+          <option value="bubbleSort">Bubble Sort</option>
+          <option value="selectionSort">Selection Sort</option>
+          <option value="quickSort">Quick Sort</option>
+        </select>
+        <button
+          id="btnOrdenarEsquerda"
+          onclick="ordenarValores(listaValoresEsquerda, selectAlgoritmoEsquerda)"
+        >
+          Ordenar
+        </button>
+        <button
+          id="btnMisturarEsquerda"
+          onclick="misturarValores(listaValoresEsquerda)"
+        >
+          Misturar
+        </button>
+        <div class="separadorButton"></div>
+        <ul id="valoresEsquerda" class="listas"></ul>
+      </div>
+      <div class="separador"></div>
+      <div class="secao direita">
+        <h2>Ordenando Valores</h2>
+        <div class="inputs">
+          <label for="valorDireita">Valor</label>
+          <input type="number" id="valorDireita" min="1" max="8" />
+          <button
+            id="btnAdicionarDireita"
+            onclick="adicionarValor(inputValorDireita, listaValoresDireita)"
+          >
+            Adicionar
+          </button>
+          <div class="separadorButton"></div>
+        </div>
+        <select id="algoritmoDireita" class="algoritmo">
+          <option value="bubbleSort">Bubble Sort</option>
+          <option value="selectionSort">Selection Sort</option>
+          <option value="quickSort">Quick Sort</option>
+        </select>
+        <button
+          id="btnOrdenarDireita"
+          onclick="ordenarValores(listaValoresDireita, selectAlgoritmoDireita)"
+        >
+          Ordenar
+        </button>
+        <button
+          id="btnMisturarDireita"
+          onclick="misturarValores(listaValoresDireita)"
+        >
+          Misturar
+        </button>
+        <div class="separadorButton"></div>
+        <ul id="valoresDireita" class="listas"></ul>
+      </div>
+    </div>
+    <script src="ordenando.js"></script>
+  </body>
+</html>
