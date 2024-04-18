@@ -12,18 +12,11 @@ Abaixo temos os botões lado a lado : Ordenar e Misturar
 Criei uma página dinâmica- Catálogo de Receitas- com três receitas e seus respectivos ingredientes e modo de preparo .
 
 👉 3º Procedimento | Transmissão de Dados e VUE JS-arquivo usuarios.html
-Preenchimento do vetor users com os dados JSON fornecidos por https://reqres.in/api/users?per_page=10, podendo ser utilizado
+Preenchimento do vetor users com os dados JSON fornecidos por api reqres.in, podendo ser utilizado 
 JQuery AJAX, XMLHttpRequest ou Fetch API.
 
 
 ## - Objetivos da prática
-
-A partir dos objetivos listados acima, no final do projeto,
-terei experimentado diversas formas de utilização do
-Java Script no lado cliente, me capacitando para
-lidar com contextos reais de aplicação das tecnologias
-abordadas.
-
 
 ````
     Explorar a sintaxe Java Script na implementação de
@@ -43,13 +36,22 @@ abordadas.
 ```
 
 ## Como executar
-1-Abra o seu VS Code.
-1.1-Digite CTRL + Shift +X e instale as bibliotecas necessárias para execução do projeto no VS Code, tais como : Live Server, json, JavaScript (ES6),HTML CSS Support. (caso já não as tenha instalado)
-1.2- Click em Clonar um Repositório GitHub em uma pasta local Abra o código no seu VS Code.
+1-Abra o seu VS Code;
+
+1.1-Digite CTRL + Shift +X e instale as bibliotecas necessárias para execução do projeto no VS Code, tais como : Live Server, json, JavaScript (ES6),HTML CSS Support. (caso já não as tenha instalado);
+
+1.2- Click em Clonar um Repositório GitHub em uma pasta local Abra o código no seu VS Code;
+
 1.3- Clone o repositório:
 ```bash
 (https://github.com/DevRobertaPaes/missaopratica2)
 ```
+Click com o mouse, abra o arquivo, e depois click com o mouse(lado direito) novamente em cima do nome do arquivo - Open with live server- nos arquivos:
+
+✔ ordenando.html
+✔ receitas.html
+✔ usuarios.html
+
  
 <div>
   <img src="computer-illustration.png"align="right" width="30%" margin-top="20px" >
