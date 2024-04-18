@@ -1,6 +1,8 @@
-  ## Descobrindo o Java Script
+## Missão Prática | Nível 2 | Mundo 2
+  
+  Descobrindo o Java Script
 
-👉 1º Procedimento | Ordenando com Java Script e DOM - arquivo ordenando.html
+👉 1º Procedimento | Ordenando com Java Script e DOM - 📁 arquivo ordenando.html
 
 Criei uma página com o nome "ordenando.html", no ambiente de edição;
 Defini um campo -Valor- de entrada numérico;
@@ -8,12 +10,14 @@ Sempre que o usuário digitar um número (de 1 e 8) e clicar no botão Adicionar
 Defini um Campo com três opções de ordenação- Bubble Sort;Selection Sort e Quick Sort;
 Abaixo temos os botões lado a lado : Ordenar (que ordena os números) e Misturar (que mistura os números)
 
-👉 2º Procedimento | Página de Receitas Dinâmica- arquivo receitas.html
+👉 2º Procedimento | Página de Receitas Dinâmica- 📁 arquivo receitas.html
+
 Criei uma página dinâmica chamada Catálogo de Receitas- com três receitas e seus respectivos ingredientes e modo de preparo .
 São elas: Donut Nuteludo, Donut Pistache, Donut Redvelvet, com as fotos dos donuts , a lista dos ingredientes e o preparo.
 
-👉 3º Procedimento | Transmissão de Dados e VUE JS-arquivo usuarios.html
-Criei uma página chamada Usuários de Teste via Rest, contendo pessoas, com foto, nome e e-mail.
+👉 3º Procedimento | Transmissão de Dados e VUE JS - 📁 arquivo usuarios.html
+
+Criei uma página chamada Usuários de Teste via Rest, contendo 10 cards de pessoas, com foto, nome e e-mail.
 
 ## - Objetivos da prática
 
@@ -46,7 +50,7 @@ Criei uma página chamada Usuários de Teste via Rest, contendo pessoas, com fot
 ```bash
 (https://github.com/DevRobertaPaes/missaopratica2)
 ```
-Click com o mouse, abra o arquivo, e depois click com o mouse(lado direito) novamente em cima do nome do arquivo - Open with live server- nos arquivos listados abaixo na ordem :
+Com os arquivos abertos no VS Code, Click com o mouse, abra o arquivo (ordenando.html, receitas.html,usuarios.html) e depois click com o mouse(lado direito) em cima do nome do arquivo - aparecerá - Open with live server- click e o arquivo será aberto em uma página da internet.
 
 👉 1º Procedimento ✔ ordenando.html
 
