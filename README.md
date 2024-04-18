@@ -41,15 +41,17 @@ Criei uma página chamada Usuários de Teste via Rest, contendo pessoas, com fot
 1.1-Digite CTRL + Shift + X e instale as bibliotecas necessárias para execução do projeto no VS Code, tais como : Live Server, json, JavaScript (ES6),HTML CSS Support. (caso já não as tenha instalado);
 
 1.2- Click em Clonar um Repositório GitHub em uma pasta local e Abra o código no seu VS Code;
-           👇
-1.3- Clone o repositório:
+           
+1.3- Clone o repositório:👇
 ```bash
 (https://github.com/DevRobertaPaes/missaopratica2)
 ```
 Click com o mouse, abra o arquivo, e depois click com o mouse(lado direito) novamente em cima do nome do arquivo - Open with live server- nos arquivos listados abaixo na ordem :
 
 👉 1º Procedimento ✔ ordenando.html
+
 👉 2º Procedimento ✔ receitas.html
+
 👉 3º Procedimento ✔ usuarios.html
 
  
