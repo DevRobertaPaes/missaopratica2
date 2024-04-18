@@ -4,17 +4,16 @@
 
 Criei uma página com o nome "ordenando.html", no ambiente de edição;
 Defini um campo -Valor- de entrada numérico;
-Sempre que o usuário digitar um número (de 1 a 8) e clicar no botão Adicionar, aparecerá uma mensagem  Valor válido . O usuário clica em oknúmero ok e o número é apresentado em tela. Caso ele digite um número diferente de 1 e 8, aparecerá a mensagem Valor inválido.Digite um número entre 1 e 8.
+Sempre que o usuário digitar um número (de 1 e 8) e clicar no botão Adicionar, aparecerá uma mensagem  Valor válido . O usuário clica em ok e o número é apresentado em tela. Caso ele digite um número diferente de 1 e 8, aparecerá a mensagem Valor inválido.Digite um número entre 1 e 8.
 Defini um Campo com três opções de ordenação- Bubble Sort;Selection Sort e Quick Sort;
-Abaixo temos os botões lado a lado : Ordenar e Misturar 
+Abaixo temos os botões lado a lado : Ordenar (que ordena os números) e Misturar (que mistura os números)
 
 👉 2º Procedimento | Página de Receitas Dinâmica- arquivo receitas.html
-Criei uma página dinâmica- Catálogo de Receitas- com três receitas e seus respectivos ingredientes e modo de preparo .
+Criei uma página dinâmica chamada Catálogo de Receitas- com três receitas e seus respectivos ingredientes e modo de preparo .
+São elas: Donut Nuteludo, Donut Pistache, Donut Redvelvet, com as fotos dos donuts , a lista dos ingredientes e o preparo.
 
 👉 3º Procedimento | Transmissão de Dados e VUE JS-arquivo usuarios.html
-Preenchimento do vetor users com os dados JSON fornecidos por api reqres.in, podendo ser utilizado 
-JQuery AJAX, XMLHttpRequest ou Fetch API.
-
+Criei uma página chamada Usuários de Teste via Rest, contendo pessoas, com foto, nome e e-mail.
 
 ## - Objetivos da prática
 
@@ -32,25 +31,26 @@ JQuery AJAX, XMLHttpRequest ou Fetch API.
 ```
     Computador com acesso à internet;
     Editor de código Visual Studio Code;
-    Navegador de internet instalado no computador.
+    Navegador de internet instalado no computador;
+    Conta no GitHub.
 ```
 
 ## Como executar
 1-Abra o seu VS Code;
 
-1.1-Digite CTRL + Shift +X e instale as bibliotecas necessárias para execução do projeto no VS Code, tais como : Live Server, json, JavaScript (ES6),HTML CSS Support. (caso já não as tenha instalado);
+1.1-Digite CTRL + Shift + X e instale as bibliotecas necessárias para execução do projeto no VS Code, tais como : Live Server, json, JavaScript (ES6),HTML CSS Support. (caso já não as tenha instalado);
 
-1.2- Click em Clonar um Repositório GitHub em uma pasta local Abra o código no seu VS Code;
-
+1.2- Click em Clonar um Repositório GitHub em uma pasta local e Abra o código no seu VS Code;
+           👇
 1.3- Clone o repositório:
 ```bash
 (https://github.com/DevRobertaPaes/missaopratica2)
 ```
-Click com o mouse, abra o arquivo, e depois click com o mouse(lado direito) novamente em cima do nome do arquivo - Open with live server- nos arquivos:
+Click com o mouse, abra o arquivo, e depois click com o mouse(lado direito) novamente em cima do nome do arquivo - Open with live server- nos arquivos listados abaixo na ordem :
 
-✔ ordenando.html
-✔ receitas.html
-✔ usuarios.html
+👉 1º Procedimento ✔ ordenando.html
+👉 2º Procedimento ✔ receitas.html
+👉 3º Procedimento ✔ usuarios.html
 
  
 <div>
