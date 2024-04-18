@@ -4,8 +4,7 @@
 
   ## Descobrindo o Java Script
 
-👉 1º Procedimento | Ordenando com Java Script e
-DOM - arquivo index.html
+👉 1º Procedimento | Ordenando com Java Script e DOM - arquivo ordenando.html
 
 👉 2º Procedimento | Página de Receitas Dinâmica- arquivo receitas.html
 
