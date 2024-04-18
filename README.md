@@ -100,7 +100,7 @@ git clone https://github.com/DevRobertaPaes/missao-pratica2
 3. Instale as bibliotecas necessárias para execução do projeto no VS Code, tais como : Live Server, json, JavaScript (ES6),HTML CSS Support.
 
 <div>
-  <img src="octocat-17.png"align="right" width="30%" margin-top="20px" >
+  <img src="octocat-1712146181398.png"align="right" width="30%" margin-top="20px" >
 </div>
 <div>
 <img width="100%" src="https://camo.githubusercontent.com/ce26eeddc72e80f3706363df1eedfdeb81905fe41fd9933e4299464ab13faebb/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d384630443837266865696768743d3132302673656374696f6e3d666f6f746572" data-canonical-src="https://capsule-render.vercel.app/api?type=waving&amp;color=8F0D87&amp;height=120&amp;section=footer" style="max-width: 100%;">
